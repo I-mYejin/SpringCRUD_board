@@ -69,3 +69,4 @@ public class BoardDAO {
 		return jdbcTemplate.query(sql, new BoardRowMapper());
 	}
 }
+
